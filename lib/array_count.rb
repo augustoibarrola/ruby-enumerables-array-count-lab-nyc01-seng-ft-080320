@@ -1,13 +1,7 @@
 def count_strings(array)
-  tally = 0
-if array.count do |x|is_a? (num)
-  tally = tally
-end
-else
-  tall += 1
+array.count do |String|
 end
 end
-
 
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
