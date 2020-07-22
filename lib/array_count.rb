@@ -1,6 +1,6 @@
 def count_strings(array)
   tally = 0
-if array.count do |String|
+if array.count do |"strings"|
   tally += 1
 end
 end
