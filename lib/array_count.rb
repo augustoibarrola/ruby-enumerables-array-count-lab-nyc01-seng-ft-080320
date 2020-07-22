@@ -2,6 +2,7 @@ def count_strings(array)
   tally = 0
 if array.count do |x|is_a? num
   tally = tally
+end
 else
   tall += 1
 end
