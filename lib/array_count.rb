@@ -1,7 +1,7 @@
 def count_strings(array)
 flat = array.flatten
 flat.count do |x|
-  x == "string".class
+x.instance_of? String
 end
 end
 
