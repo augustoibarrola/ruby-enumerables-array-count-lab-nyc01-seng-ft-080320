@@ -1,5 +1,7 @@
 def count_strings(array)
-array.count do |String|
+flat = array.flatten
+flat.count do |x|
+  x == "string".class
 end
 end
 
